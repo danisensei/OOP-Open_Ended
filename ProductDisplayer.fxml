@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.TilePane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="730.0" prefWidth="697.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <HBox layoutX="249.0" layoutY="14.0" prefHeight="58.0" prefWidth="140.0">
+            <children>
+                <Text fill="#ff6518" strokeType="OUTSIDE" strokeWidth="0.0" text="Alibaba">
+                    <font>
+                        <Font name="System Bold" size="26.0" />
+                    </font>
+                </Text>
+                <Text fill="#ff6518" strokeType="OUTSIDE" strokeWidth="0.0" text=".com">
+                    <font>
+                        <Font size="26.0" />
+                    </font>
+                </Text>
+            </children>
+        </HBox>
+        <VBox layoutX="286.0" layoutY="108.0" prefHeight="27.0" prefWidth="75.0" />
+        <Text fill="#514538" layoutX="297.0" layoutY="114.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Products">
+            <font>
+                <Font name="System Bold Italic" size="18.0" />
+            </font>
+        </Text>
+        <ScrollPane layoutX="7.0" layoutY="205.0" prefHeight="228.0" prefWidth="686.0" style="-fx-border-color: #005248;">
+            <content>
+                <TilePane fx:id="Tile" orientation="VERTICAL" prefHeight="211.0" prefWidth="687.0">
+                    <children>
+                        <VBox alignment="CENTER" prefHeight="200.0" prefWidth="200.0">
+                            <children>
+                                <Label alignment="TOP_CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="222.0" text="Name" />
+                                <ImageView fitHeight="118.0" fitWidth="153.0" pickOnBounds="true" preserveRatio="true" />
+                                <Label alignment="BOTTOM_CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="206.0" text="Price">
+                                    <font>
+                                        <Font name="System Bold" size="12.0" />
+                                    </font>
+                                </Label>
+                                <Label alignment="BOTTOM_CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="206.0" text="\$">
+                                    <font>
+                                        <Font name="System Bold" size="12.0" />
+                                    </font>
+                                </Label>
+                            </children>
+                        </VBox>
+                    </children>
+                </TilePane>
+            </content>
+        </ScrollPane>
+    </children>
+</AnchorPane>
